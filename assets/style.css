@@ -1,0 +1,14 @@
+.completed {
+  text-decoration: line-through;
+  color: #f4f4f4;
+}
+
+body {
+  background-color: coral;
+}
+
+ul {
+  list-style: none;
+}
+
+
