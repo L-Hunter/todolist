@@ -1,14 +1,55 @@
-.completed {
-  text-decoration: line-through;
-  color: #f4f4f4;
+body {
+  background-color: #9fc360;
+  margin:0;
+  padding:0;
+  font-family: 'Raleway', sans-serif;
 }
 
-body {
-  background-color: coral;
+.container {
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 34px;
+  background-color: #daf0aa;
+  margin:0;
+  padding: 15px;
+}
+
+main {
+  margin:0 auto;
+  width: 50%;
+  background-color: #b5e37f;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+}
+
+#inputField {
+  font-size: 22px;
+  margin: 15px;
+  width: 70%;
+}
+
+button {
+  font-size: 22px;
+  background-color: #ffec7b;
 }
 
 ul {
   list-style: none;
+  font-size: 20px;
 }
 
+.completed {
+  text-decoration: line-through;
+  color: #FFFFFF;
+}
+
+li {
+  margin: 15px;
+}
 

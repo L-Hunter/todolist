@@ -6,7 +6,7 @@ const taskInput = document.getElementById('inputField');
 function addTask(text){
   list.push(text);
   taskList.insertAdjacentHTML('afterbegin',
-    `<li>
+    `<li class="row">
       <input type="checkbox" class="checkbox" />
       <span>${text}</span>
       <button class="deleteButton">X</button>
